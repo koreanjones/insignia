@@ -1,0 +1,370 @@
+@import 'https://fonts.googleapis.com/css?family=Alegreya+Sans';
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0
+}
+html {
+
+}
+body {
+    
+	background: white;
+	color: #67727a;
+	font-family: sans-serif;
+	margin: 0
+}
+h2 {
+	font-size: 250%;
+	font-weight: 700;
+	text-align: center;
+	padding-top: 2%
+}
+h3 {
+	font-size: 175%;
+	line-height: 155%;
+	padding: 5% 0;
+	font-weight: 400;
+}
+p {
+	font-size: 160%;
+	line-height: 150%;
+	padding: 3%;
+	text-indent: 2%;
+	text-align: justify;
+}
+img {
+	max-width: 100%;
+	height: auto;
+	width: auto;
+	margin-bottom: -4px;
+}
+header {
+	background-color: white;
+	width: 100%;
+	height: 120px;
+}
+#header-inner {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+#logo {
+	
+	float: left;
+    text-align: left;
+	width: 400px;
+	height: 60px;
+	
+}
+
+/*      NAvigation           */
+
+nav {
+	padding: 25px 20px 0 0;
+}
+#menu-icon {
+	display: hidden;
+	width: 40px;
+	height: 40px;
+	background: url("img/nav.png") center;
+}
+a:hover#menu-icon {
+	border-radius: 4px 4px 0 0; 
+}
+ul {
+    text-align: right;
+	list-style: none;
+}
+nav ul li {
+    border-left: 2px dashed grey;
+    width: 10%;
+	font-family: "alegreya", sans-serif;
+	font-size: 150%;
+	display: inline-block;
+	padding: 10px;
+}
+#ontheborderLink {
+    border-right: 2px dashed grey;
+}
+nav ul li img {
+    height: 50.73px;
+}
+nav ul li a {
+	color: #f5f5f5;
+	text-decoration: none;
+}
+nav ul li a:hover {
+	color: #c3d7df;
+}
+.current {
+	color: #c3d7df;
+}
+.brandLink{
+    width: 100%;
+}
+
+/*--------    End of NAV ----------------------*/
+.banner {
+    
+	margin-left: 16%;
+    margin-top: 2%;
+	background-color: white;
+    padding-bottom: 3%;
+    
+}
+.banner-inner {
+    margin-left: 250px;
+    margin: 0 auto;
+    float:left;
+	max-width: 100%;
+	
+}
+hr {
+    size: 5px;
+    width: 3px;
+}
+#leftImage {
+    margin-top: 10px;
+    float: left;
+    max-width: 35%;
+}
+#rightImage {
+    margin-left: 5%;
+    float: left;
+    max-width: 45%;
+}
+.otbMain {
+    
+}
+#otbMain {
+    max-height: 455.98px;
+}
+#topTen {
+    margin-left: 13%;
+    margin-top: 5%;
+    box-shadow: 0px 5px 10px 4px; 
+    width: 30%;
+}
+#description {
+    box-shadow: 0px 5px 10px 4px;
+    width: 32.5%;
+    margin-left: 5%;
+}
+.one-fourth { 
+    box-shadow: 0px 5px 10px 4px;
+    border-radius: 5px;
+    margin: 2% 2% 2% 2%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    width: 29.3%;
+	float: left;
+	text-align: center;
+    
+    
+}
+section img {
+    border-radius: 5px;
+}
+#html{
+	background-color: #f1aa90;
+
+}
+#css {
+	background-color: #beb9ad;
+}
+#seo {
+	background-color: #aadcd2;
+}
+#social {
+	background-color: white;
+}
+.one-fourth i {
+	color:  #f0f0f0;
+	font-size: 500%;
+	padding: 13% 0 4% 0;
+
+}
+.inner-wrapper {
+    
+	width: 100%;
+	background-color: #c3d7df;
+	color: white;
+}
+.innerMain {
+    
+}
+article {
+    border: 3px solid white;
+	float: left;
+	margin: 0 auto;
+	width: 48%;
+	height: auto;
+	color: white;
+   
+    
+}
+#truco {
+   
+    text-align: center;
+    background: green:
+    
+
+}
+aside {
+    background-color: white;
+    border: 5px solid white;
+    padding-top: 1%;
+	float:right;
+	margin: 0 auto;
+	width: 50%;
+    height: auto;
+    max-width: 631.78;
+    margin-right: 4%;
+	
+}
+#truco2 {
+    border:5px solid #e94c23;
+    border-radius: 5px;
+    width: 45%;
+	background-color: wheat;
+    color: #e94c23;
+}
+#secondImage {
+    text-align:center;
+}
+.thirdImage{
+    text-align: center;
+}
+#desktop{
+	background-color: #f1aa90;
+}
+.inner-wrapper-2 {
+	float: left;
+	width: 100%;
+	background-color: white;
+}
+.inner-wrapper-3 {
+	float: left;
+	width: 100%;
+	background-color: #aadcd2;
+}
+.one-third {
+	width: 33.3333%;
+	float: left;
+	text-align: center;
+	color: white;
+}
+#google {
+	background-color: #a2b1c1;
+}
+#marketing {
+	background-color: #beb9ad;
+}
+#customers {
+	background-color: #aadcd2;
+}
+
+/*-------------------Footer------------------*/
+footer {
+	background-color: #e94c23;
+	width: 100%;
+}
+.social {
+	list-style: none;
+	text-align: center;
+}
+.social li {
+	display: inline;
+}
+.social i {
+	font-size: 450%;
+	margin: 1%;
+	padding: 5%;
+	color: #c3d7df;
+}
+.social i:hover {
+	color: #f5f5f5;
+}
+footer.second {
+	background-color: white;
+	max-height: 55px;
+	text-align: center;
+	margin: 0;
+}
+footer.second p {
+	padding: 5px 0 9px 0;
+	text-align: center;
+	color: white;
+    background-color:white;
+
+}
+/*---------------------------Media Querie Here-------------------------------*/
+
+@media screen and (max-width: 768px) {
+	h2 {
+		font-size: 150%;
+	}
+	h3 {
+		font-size: 125%;
+	}
+	p {
+		font-size: 120%;
+	}
+	header {
+		position: absolute;
+	}
+	#logo {
+		margin: 15px 0 20 -25px;
+		background: url(img/RD_mobile.png) no-repeat center;
+	}
+	#menu-icon {
+		display: inline-block;
+	}
+	nav ul, nav:active ul {
+		display: none;
+		z-index: 1000;
+		position: absolute;
+		padding: 20px;
+		background: #6991ac;
+		right: 20px;
+		top: 60px;
+		border: 3px solid #fff;
+		border-radius: 10px 0 10px 10px;
+		width: 50%;
+	}
+	nav:hover ul {
+		display: block;
+	}
+	nav li {
+		text-align: center;
+		width: 100%;
+		padding: 10px 0;
+	}
+	.banner {
+		padding-top: 86px;
+	}
+	.one-fourth {
+		float: left;
+		width: 100%;
+	}
+	.one-fourth i {
+		font-size: 350%;
+		padding: 4% 0 1% 0;
+	}
+	article {
+		width: 100%;
+	}
+	aside {
+		width: 100%;
+	}
+	.hand-mobile {
+		display: none;
+	}
+	.one-third {
+		width: 100%;
+	}
+	.social i {
+		font-size: 100%;
+	}
+}
